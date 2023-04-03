@@ -1,19 +1,21 @@
-# print(type("Hello"))
-# print(type(24))
-
-# my_fav_cheese = "vegan"
-# age = 47
-# print(age, my_fav_cheese)
-
-# number_1 = 22
-# number_2 = 13
-# sum_of_numbers = number_2 + number_1
-# print("Answer is ", sum_of_numbers)
-
+# Setting up some string variables and concatenating them
 word_1 = "dinosaur"
 word_2 = "Ladybird"
 print(word_1.upper() + " " + word_2)
 print(word_1)
-
+# changing case of strings
 word_1 = word_1.upper()
 print(word_1)
+
+# Making a function to ask how your first day on the course.
+def day_one():
+    mood = input("How was your first day in one word?: ")
+    if mood == "good":
+        print("Glad you had a ", mood , " first day :0)!")
+    elif mood == "bad":
+        print("Sorry to hear you've had a ", mood, " first day :(")
+    else:
+        print("Interesting first day then!")
+
+day_one()    
+        
